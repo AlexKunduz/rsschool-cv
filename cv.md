@@ -24,3 +24,37 @@ Minsk, Belarus
 ## Spoken languages:
 * Russian (native)
 * English (A2+)
+
+
+---
+
+## About me
+
+
+My main goal is to become a professional programmer, to create programs to create favorable conditions for the lives of others
+
+
+---
+
+## Skills:
+* HTML/CSS 
+* Markdown
+* Microsoft Word
+* Microsoft PowerPoint
+* JavaScript
+
+
+---
+
+## Code exampl
+````
+function positiveSum(arr) {
+ var sum = 0;
+ for(var i = 0; i < arr.length; i++) {
+   if(arr[i] > 0) {
+   sum += arr[i];
+  }
+ }
+return sum;
+}
+````
