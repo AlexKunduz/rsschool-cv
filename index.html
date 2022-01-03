@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML, CSS & Git Basics</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Alexander Suvorov</h1>
+	</header>
+	<hr>
+	<main>
+        <div class="display-flex-inline">
+			<img src="images/photo.jpg" alt="My photo" title="Alexander Suvorov">
+		</div>
+        <section>
+		<div class="display-flex-inline">
+			<h2>About me: </h2>
+			<p>My main goal is to become a professional programmer, 
+            to create programs to create favorable conditions for the lives of others</p>
+			<h2>Personal information:</h2>
+			<ul class="container-ul-contacts">
+				<li>Contacts:
+					<ul class="white-list">
+						<li>Phone: +375296520173 (A1)</li>
+						<li>Email: Kunduz8284@gmail.com</li>
+                        <li>Telegram: @AlexKundyz</li>
+					</ul>
+                </li>    
+                <li>Location:
+                    <ul class="white-list">
+                        <li>Minsk</li>  
+                    </ul>
+                </li>
+                <li>Education:
+					<ul class="white-list">
+						<li>Instrument engineer, Belarusian National Technical University (2008 - 2013)</li>
+						<li>Comprehensive course on Web application development in Python, Educational Center of the Hi-tech Park (2018)</li>
+					</ul>
+                </li>
+                <li>Spoken languages:
+					<ul class="white-list">
+						<li>Russian (native)</li>
+						<li>English (A2+)</li>
+					</ul>
+                </li>
+                <li>Skills:
+					<ul class="white-list">
+						<li>HTML/CSS</li>
+						<li>Markdown</li>
+                        <li>Microsoft Office</li>
+                        <li>JavaScript</li>
+					</ul>
+                </li>       
+			</ul>
+		</div>
+        </section>
+	</main>
+	<hr>
+	<article>
+		<h2>Code exampl:</h2>
+		<pre>
+		    <code>		
+            function positiveSum(arr) {
+                var sum = 0;
+                for(var i = 0; i <&lt;arr.length; i++) {
+                  if(arr[i] > 0) {
+                  sum += arr[i];
+                 }
+              }
+            return sum;
+            }	    
+		    </code>
+		</pre>
+	</article>
+	<hr>
+	<footer>
+		<a href="https://github.com/AlexKunduz/" id="logo"><img src="images/github.svg" alt="GitHub" class="footer-img"
+            title="My GitHub"></a>
+		<span><b>2021</b></span>
+		<a href="https://rs.school/js/" id="logo_1"><img src="images/rs_school_js.svg" alt="RS School" class="footer-img"
+				title="RS school"></a>
+	</footer>
+</body>
+</html>
